@@ -1,0 +1,22 @@
+@import url('../vendor/normalize.css');
+@import url('../fonts/fonts.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/container/container.css');
+
+/*fonts*/
+@import url('../blocks/title/title.css');
+@import url('../blocks/subtitle/subtitle.css');
+@import url('../blocks/subtitle/_type/subtitle_type_active.css');
+@import url('../blocks/subtitle/_type/subtitle_type_button.css');
+@import url('../blocks/subtitle/_type/subtitle_type_distribution.css');
+@import url('../blocks/subtitle/_type/subtitle_type_main.css');
+@import url('../blocks/subtitle/_type/subtitle_type_name.css');
+@import url('../blocks/text/text.css');
+@import url('../blocks/text/__medium/text__medium.css');
+@import url('../blocks/text/__medium/_type/text__medium_type_form.css');
+@import url('../blocks/text/__medium/_type/text__medium_type_header.css');
+@import url('../blocks/text/__medium/_type/text__medium_type_name.css');
+@import url('../blocks/text/__regular/text__regular.css');
+@import url('../blocks/text/__regular/_type/text__regular_type_caption.css');
+@import url('../blocks/text/__regular/_type/text__regular_type_name.css');
+@import url('../blocks/text/__regular/_type/text__regular_type_paragraph.css');

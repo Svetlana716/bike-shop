@@ -1,0 +1,13 @@
+.text__regular_type_paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    color: #222;
+    opacity: .7;
+}
+
+@media (max-width: 320px) {
+    .text__regular_type_paragraph  {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

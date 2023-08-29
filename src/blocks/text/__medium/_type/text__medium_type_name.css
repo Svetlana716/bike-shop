@@ -1,0 +1,11 @@
+.text__medium_type_name {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+@media (max-width: 320px) {
+    .text__medium_type_name {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

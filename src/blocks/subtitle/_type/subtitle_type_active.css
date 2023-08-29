@@ -1,0 +1,11 @@
+.subtitle_type_active {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+@media (max-width: 320px) {
+    .subtitle_type_active {
+        font-size: 11px;
+        line-height: 14px;
+    }
+}
