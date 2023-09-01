@@ -1,0 +1,9 @@
+.theme-switcher__checkbox-input {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.theme-switcher__checkbox-input:checked + .theme-switcher__checkbox-slider::before {
+  transform: translateX(20px);
+}

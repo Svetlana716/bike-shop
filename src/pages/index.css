@@ -14,9 +14,53 @@
 @import url('../blocks/text/text.css');
 @import url('../blocks/text/__medium/text__medium.css');
 @import url('../blocks/text/__medium/_type/text__medium_type_form.css');
-@import url('../blocks/text/__medium/_type/text__medium_type_header.css');
 @import url('../blocks/text/__medium/_type/text__medium_type_name.css');
 @import url('../blocks/text/__regular/text__regular.css');
 @import url('../blocks/text/__regular/_type/text__regular_type_caption.css');
 @import url('../blocks/text/__regular/_type/text__regular_type_name.css');
 @import url('../blocks/text/__regular/_type/text__regular_type_paragraph.css');
+
+/*header*/
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__burger-btn/header__burger-btn.css');
+@import url('../blocks/header/__burger-dash/header__burger-dash.css');
+@import url('../blocks/header/__burger-dash-crossed/header__burger-dash-crossed.css');
+
+/*menu*/
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/menu/__list/menu__list.css');
+@import url('../blocks/menu/__item/menu__item.css');
+@import url('../blocks/menu/__link/menu__link.css');
+@import url('../blocks/menu/__theme-switcher/menu__theme-switcher.css');
+@import url('../blocks/menu/_open/menu_open.css');
+
+/*theme-switcher*/
+@import url('../blocks/theme-switcher/theme-switcher.css');
+@import url('../blocks/theme-switcher/_hidden/theme-switcher_hidden.css');
+@import url('../blocks/theme-switcher/__light-theme-icon/theme-switcher__light-theme-icon.css');
+@import url('../blocks/theme-switcher/__dark-theme-icon/theme-switcher__dark-theme-icon.css');
+@import url('../blocks/theme-switcher/__checkbox-input/theme-switcher__checkbox-input.css');
+@import url('../blocks/theme-switcher/__checkbox-slider/theme-switcher__checkbox-slider.css');
+@import url('../blocks/theme-switcher/__checkbox/theme-switcher__checkbox.css');
+
+/*content*/
+@import url('../blocks/content/content.css');
+
+/*footer*/
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__column/footer__column.css');
+@import url('../blocks/footer/__form/footer__form.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
+@import url('../blocks/footer/__theme-switcher/footer__theme-switcher.css');
+@import url('../blocks/footer/__logo/footer__logo.css');
+
+/*form*/
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__heading/form__heading.css');
+@import url('../blocks/form/__fieldset/form__fieldset.css');
+@import url('../blocks/form/__input/form__input.css');
+
+
+* { outline: 1px solid yellow; }
+
+/*320-> 768px —> 1024px —>1280px ->1440px*/

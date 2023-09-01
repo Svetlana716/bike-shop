@@ -1,0 +1,7 @@
+
+@media (max-width: 768px) {
+  .footer__column {
+    display: grid;
+    grid-column: span 2;
+}
+}

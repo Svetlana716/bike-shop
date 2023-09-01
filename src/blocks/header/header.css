@@ -1,0 +1,26 @@
+.header {
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  width: 100%;
+  min-height: 74px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 28px 120px;
+  z-index: 1;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 28px 60px;
+}
+}
+
+@media (max-width: 768px) {
+  .header {
+   position: relative;
+}
+}
+

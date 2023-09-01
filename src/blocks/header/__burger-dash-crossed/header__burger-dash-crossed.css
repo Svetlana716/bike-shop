@@ -1,0 +1,10 @@
+.header__burger-dash-crossed:nth-child(1){
+  transform: translateY(0) rotate(45deg);
+}
+
+.header__burger-dash-crossed:nth-child(2){
+  opacity: 0;
+}
+.header__burger-dash-crossed:nth-child(3){
+  transform: translateY(0) rotate(-45deg);
+}

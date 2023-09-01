@@ -1,0 +1,9 @@
+.theme-switcher_hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .theme-switcher_hidden {
+    display: flex;
+}
+}

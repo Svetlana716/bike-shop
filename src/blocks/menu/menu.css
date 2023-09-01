@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F4F4F4;
+    width: 100%;
+    min-height: 566px;
+    margin-top: 74px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: translateY(-140%);
+    transition: transform .5s ease;
+    box-sizing: border-box;
+}
+}

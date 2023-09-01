@@ -1,0 +1,15 @@
+.footer {
+  flex-shrink: 0;
+  display: grid;
+  align-items: end;
+  grid-template-columns: 1fr 136px;
+  min-height: 424px;
+  box-sizing: border-box;
+  padding: 80px 123px 60px 0;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 60px 0 16px;
+}
+}

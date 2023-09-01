@@ -1,17 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bike-shop</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bike-shop</title>
 </head>
+
 <body class="page">
-    <div class="container">
-        <header class="header"></header>
-        <main class="content">
-            
-        </main>
-        <footer class="footer"></footer>
-    </div>
+  <div class="container">
+    <header class="header">
+      <button class="header__burger-btn">
+        <span class="header__burger-dash"></span>
+        <span class="header__burger-dash"></span>
+        <span class="header__burger-dash"></span>
+      </button>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item"><a class="menu__link" href="#">Покрытия и градиенты</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Велосипеды</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Тренировки</a></li>
+        </ul>
+        <div class="theme-switcher theme-switcher_hidden menu__theme-switcher">
+          <img class="theme-switcher__light-theme-icon" src="<%=require('././images/light-theme.svg')%>" alt="иконка светлой темы">
+          <label class="theme-switcher__checkbox" for="checkbox">
+            <input class="theme-switcher__checkbox-input" type="checkbox" id="checkbox">
+            <span class="theme-switcher__checkbox-slider"></span>
+          </label>
+          <img class="theme-switcher__dark-theme-icon" src="<%=require('././images/dark-theme.svg')%>" alt="иконка темной темы">
+      </div>
+      </nav>
+    </header>
+    <main class="content">
+
+    </main>
+
+    <!-- <article class="column column_type_double hedonism__about">
+      <h2 class="title title_type_section">просто приятно помогать</h2>
+      <div class="column column_type_single">
+        <p class="text text_type_main column__shifted-paragraph">Пейте кофе в&nbsp;любимых заведениях, посещайте интересные мероприятия,
+          устраивайте домашние посиделки с&nbsp;друзьями&nbsp;&mdash; и&nbsp;помогайте бездомным!</p>
+        <p class="text text_type_main">Целую неделю 26&nbsp;апреля&nbsp;&mdash; 2&nbsp;мая вся выручка будет перечислена в&nbsp;пользу бездомных.</p>
+
+        <a class="btn btn_type_bordered text text_type_button column__btn" href="./festival.html" target="_blank">стать участником</a>
+      </div>
+    </article> -->
+
+    <footer class="footer">
+      <div class="footer__column">
+      <form class="form footer__form" name="" novalidate>
+        <h2 class="form__heading subtitle subtitle_type_distribution">Подпишитесь&nbsp;на&emsp;рассылку —</h2>
+          <fieldset class="form__fieldset">
+            <input class="form__input"
+              id="email-input"
+              type="email"
+              name="email"
+              value=""
+              placeholder="Ваш e-mail"
+              minlength="2"
+              maxlength="40"
+              pattern="^[a-z A-Z\-]+$"
+              data-error-message="Разрешены латинские буквы, знаки дефиса и пробелы"
+              required/>
+            <span class="form__input-error name-input-error"></span>
+          </fieldset>
+        </form>
+        <p class="footer__copyright">© Road Club 2021</p>
+        <img class="footer__logo" src="<%=require('././images/footer-logo.svg')%>" alt="мячик с шипами">
+      </div>
+        <div class="theme-switcher footer__theme-switcher">
+          <img class="theme-switcher__light-theme-icon" src="<%=require('././images/light-theme.svg')%>" alt="иконка светлой темы">
+          <label class="theme-switcher__checkbox" for="checkbox">
+            <input class="theme-switcher__checkbox-input" type="checkbox" id="checkbox">
+            <span class="theme-switcher__checkbox-slider"></span>
+          </label>
+          <img class="theme-switcher__dark-theme-icon" src="<%=require('././images/dark-theme.svg')%>" alt="иконка темной темы">
+      </div>
+
+    </footer>
+  </div>
 </body>
+
 </html>
