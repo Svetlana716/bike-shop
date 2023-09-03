@@ -1,0 +1,29 @@
+.intro__button {
+  margin-bottom: 167px;
+  width: 180px;
+  height: 50px;
+  background-color: #24B47E;
+  border: none;
+  padding: 0;
+  border-radius: 4px;
+  position: relative;
+  z-index: 1;
+}
+
+.intro__button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #319E75;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .5s linear;
+}
+
+.intro__button:hover::before {
+  transform: scaleX(1);
+}

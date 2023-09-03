@@ -1,0 +1,4 @@
+.intro__image {
+  width: 100%;
+  grid-row: span 5;
+}

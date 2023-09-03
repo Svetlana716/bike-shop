@@ -1,0 +1,6 @@
+.intro__bike-name-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 209px;
+}

@@ -46,6 +46,18 @@
 /*content*/
 @import url('../blocks/content/content.css');
 
+/*intro*/
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__title/intro__title.css');
+@import url('../blocks/intro/__image/intro__image.css');
+@import url('../blocks/intro/__text/intro__text.css');
+@import url('../blocks/intro/__button/intro__button.css');
+@import url('../blocks/intro/__bike-name-container/intro__bike-name-container.css');
+@import url('../blocks/intro/__bike-name/intro__bike-name.css');
+@import url('../blocks/intro/__line/intro__line.css');
+@import url('../blocks/intro/__bike-image-container/intro__bike-image-container.css');
+@import url('../blocks/intro/__bike-image/intro__bike-image.css');
+
 /*footer*/
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__column/footer__column.css');
