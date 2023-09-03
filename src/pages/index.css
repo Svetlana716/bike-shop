@@ -58,6 +58,21 @@
 @import url('../blocks/intro/__bike-image-container/intro__bike-image-container.css');
 @import url('../blocks/intro/__bike-image/intro__bike-image.css');
 
+/*quote*/
+@import url('../blocks/quote/quote.css');
+@import url('../blocks/quote/__author/quote__author.css');
+@import url('../blocks/quote/__image/quote__image.css');
+@import url('../blocks/quote/__profession/quote__profession.css');
+@import url('../blocks/quote/__title/quote__title.css');
+
+/*apps*/
+@import url('../blocks/apps/apps.css');
+@import url('../blocks/apps/__image/apps__image.css');
+@import url('../blocks/apps/__link/apps__link.css');
+@import url('../blocks/apps/__links-container/apps__links-container.css');
+@import url('../blocks/apps/__text/apps__text.css');
+@import url('../blocks/apps/__title/apps__title.css');
+
 /*footer*/
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__column/footer__column.css');
