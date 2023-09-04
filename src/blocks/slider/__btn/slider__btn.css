@@ -1,0 +1,17 @@
+.slider__btn {
+  min-width: 50px;
+  min-height: 50px;
+  background-color: #EBEBEB;
+  border: none;
+  padding: 0;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.slider__btn:last-child {
+  margin-right: 0px;
+}
+
+.slider__btn:hover {
+  opacity: 0.75;
+}

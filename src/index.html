@@ -22,74 +22,109 @@
           <li class="menu__item"><a class="menu__link" href="#">Тренировки</a></li>
         </ul>
         <div class="theme-switcher theme-switcher_hidden menu__theme-switcher">
-          <img class="theme-switcher__light-theme-icon" src="<%=require('././images/light-theme.svg')%>" alt="иконка светлой темы">
+          <img class="theme-switcher__light-theme-icon" src="<%=require('././images/light-theme.svg')%>"
+            alt="иконка светлой темы">
           <label class="theme-switcher__checkbox" for="checkbox">
             <input class="theme-switcher__checkbox-input" type="checkbox" id="checkbox">
             <span class="theme-switcher__checkbox-slider"></span>
           </label>
-          <img class="theme-switcher__dark-theme-icon" src="<%=require('././images/dark-theme.svg')%>" alt="иконка темной темы">
-      </div>
+          <img class="theme-switcher__dark-theme-icon" src="<%=require('././images/dark-theme.svg')%>"
+            alt="иконка темной темы">
+        </div>
       </nav>
     </header>
     <main class="content">
       <section class="intro">
         <h1 class="intro__title title">Шоссе, ТТ и&nbsp;Грэвел</h1>
         <img class="intro__image" src="<%=require('././images/intro-img.png')%>" alt="лесная дорога">
-        <p class="intro__text text text_regular text__regular_type_paragraph">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
+        <p class="intro__text text text_regular text__regular_type_paragraph">Триатлонные старты, горные серпантины или
+          грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.
+        </p>
         <button class="intro__button subtitle subtitle_type_button" aria-label="кнопка подробнее">Подробнее</button>
         <div class="intro__bike-name-container">
           <p class="intro__bike-name text text_regular text__regular_type_name">Cannondale Systemsix</p>
           <div class="intro__line"></div>
         </div>
-       <!--  <div class="intro__bike-image-container">
+        <!--  <div class="intro__bike-image-container">
           <img class="intro__bike-image" src="<%=require('././images/main-page-bike.png')%>" alt="Велосипед главной страницы">
         </div> -->
       </section>
       <section class="quote">
-          <img class="quote__image" src="<%=require('././images/quote-img.png')%>" alt="домики в горах">
-          <h2 class="quote__title subtitle subtitle_type_main">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h2>
-          <p class="quote__author text text__medium text__medium_type_name">Эдди Меркс</p>
-          <p class="quote__profession text text__regular text__regular_type_caption">Велогонщик</p>
+        <img class="quote__image" src="<%=require('././images/quote-img.png')%>" alt="домики в горах">
+        <h2 class="quote__title subtitle subtitle_type_main">«Катайся много или мало, долго или коротко, как хочешь - но
+          катайся»</h2>
+        <p class="quote__author text text__medium text__medium_type_name">Эдди Меркс</p>
+        <p class="quote__profession text text__regular text__regular_type_caption">Велогонщик</p>
+      </section>
+      <section class="slider">
+        <div class="slider__hidden"></div>
+        <div class="slider__image-label">
+          <img class="slider__label-image" src="<%=require('././images/highway-label-img.svg')%>" alt="">
+        </div>
+        <div class="slider__list">
+          <div class="slider__item item">
+            <h2 class="item__title title">Шоссе</h2>
+            <p class="item__text text text__regular text__regular_type_paragraph">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+            <img class="item__image" src="<%=require('././images/highway-img.png')%>" alt="дорога в горах">
+          </div>
+
+          <div class="slider__item item">
+            <h2 class="item__title title">Грэвел</h2>
+            <p class="item__text text text__regular text__regular_type_paragraph">Грэвел похож на шоссейный велосипед, но конструкция рамы немного отличается, и на нём стоят более широкие покрышки, всё для того чтобы проехать по лёгкому бездорожью.</p>
+            <img class="item__image" src="<%=require('././images/gravel-img.png')%>" alt="дорога в лесу">
+          </div>
+
+          <div class="slider__item item">
+            <h2 class="item__title title">ТТ</h2>
+            <p class="item__text text text__regular text__regular_type_paragraph">ТТ — это велосипед для триатлона или раздельного старта, гооняют на таком велике только по равнинному асфальту, велик очень быстрые и аэродинамичный.</p>
+            <img class="item__image" src="<%=require('././images/TT-img.png')%>" alt="дорога в поле">
+          </div>
+
+          <div class="slider__item item">
+            <h2 class="item__title title">Шоссе</h2>
+            <p class="item__text text text__regular text__regular_type_paragraph">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+            <img class="item__image" src="<%=require('././images/highway-img.png')%>" alt="дорога в горах">
+          </div>
+
+        </div>
+        <button class="slider__btn slider__btn_type_prev"></button>
+        <button class="slider__btn slider__btn_type_next"></button>
       </section>
       <section class="apps">
         <h2 class="apps__title title">Тренировки</h2>
         <img class="apps__image" src="<%=require('././images/apps-img.png')%>" alt="дорога с двойной сплошной">
-        <p class="apps__text text text__regular text__regular_type_paragraph">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
+        <p class="apps__text text text__regular text__regular_type_paragraph">Чтобы найти маршрут для тренировки можно
+          воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение
+          позволит построить тренировочный план.</p>
         <div class="apps__links-container">
           <a class="apps__link" href="https://www.strava.com">Strava</a>
           <a class="apps__link" href="https://www.komoot.com">Komoot</a>
         </div>
-    </section>
+      </section>
     </main>
     <footer class="footer">
       <div class="footer__column">
-      <form class="form footer__form" name="" novalidate>
-        <h2 class="form__heading subtitle subtitle_type_distribution">Подпишитесь&nbsp;на&emsp;рассылку —</h2>
+        <form class="form footer__form" name="" novalidate>
+          <h2 class="form__heading subtitle subtitle_type_distribution">Подпишитесь&nbsp;на&emsp;рассылку —</h2>
           <fieldset class="form__fieldset">
-            <input class="form__input"
-              id="email-input"
-              type="email"
-              name="email"
-              value=""
-              placeholder="Ваш e-mail"
-              minlength="2"
-              maxlength="40"
-              pattern="^[a-z A-Z\-]+$"
-              data-error-message="Разрешены латинские буквы, знаки дефиса и пробелы"
-              required/>
+            <input class="form__input" id="email-input" type="email" name="email" value="" placeholder="Ваш e-mail"
+              minlength="2" maxlength="40" pattern="^[a-z A-Z\-]+$"
+              data-error-message="Разрешены латинские буквы, знаки дефиса и пробелы" required />
             <span class="form__input-error name-input-error"></span>
           </fieldset>
         </form>
         <p class="footer__copyright">© Road Club 2021</p>
         <img class="footer__logo" src="<%=require('././images/footer-logo.svg')%>" alt="мячик с шипами">
       </div>
-        <div class="theme-switcher footer__theme-switcher">
-          <img class="theme-switcher__light-theme-icon" src="<%=require('././images/light-theme.svg')%>" alt="иконка светлой темы">
-          <label class="theme-switcher__checkbox" for="checkbox">
-            <input class="theme-switcher__checkbox-input" type="checkbox" id="checkbox">
-            <span class="theme-switcher__checkbox-slider"></span>
-          </label>
-          <img class="theme-switcher__dark-theme-icon" src="<%=require('././images/dark-theme.svg')%>" alt="иконка темной темы">
+      <div class="theme-switcher footer__theme-switcher">
+        <img class="theme-switcher__light-theme-icon" src="<%=require('././images/light-theme.svg')%>"
+          alt="иконка светлой темы">
+        <label class="theme-switcher__checkbox" for="checkbox">
+          <input class="theme-switcher__checkbox-input" type="checkbox" id="checkbox">
+          <span class="theme-switcher__checkbox-slider"></span>
+        </label>
+        <img class="theme-switcher__dark-theme-icon" src="<%=require('././images/dark-theme.svg')%>"
+          alt="иконка темной темы">
       </div>
 
     </footer>

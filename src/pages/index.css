@@ -65,6 +65,24 @@
 @import url('../blocks/quote/__profession/quote__profession.css');
 @import url('../blocks/quote/__title/quote__title.css');
 
+/*slider*/
+@import url('../blocks/slider/slider.css');
+@import url('../blocks/slider/__hidden/slider__hidden.css');
+@import url('../blocks/slider/__image-label/slider__image-label.css');
+@import url('../blocks/slider/__label-image/slider__label-image.css');
+@import url('../blocks/slider/__item/slider__item.css');
+@import url('../blocks/slider/__list/slider__list.css');
+@import url('../blocks/slider/__btn/slider__btn.css');
+@import url('../blocks/slider/__btn/_type/slider__btn_type_next.css');
+@import url('../blocks/slider/__btn/_type/slider__btn_type_prev.css');
+
+/*item*/
+@import url('../blocks/item/item.css');
+
+@import url('../blocks/item/__image/item__image.css');
+@import url('../blocks/item/__text/item__text.css');
+@import url('../blocks/item/__title/item__title.css');
+
 /*apps*/
 @import url('../blocks/apps/apps.css');
 @import url('../blocks/apps/__image/apps__image.css');

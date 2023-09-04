@@ -1,0 +1,12 @@
+.slider__image-label {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  bottom: 180px;
+  z-index: 2;
+  background-image: url(../../../images/image-label.png);
+  background-size: cover;
+  width: 100px;
+  height: 40px;
+  padding: 12px 16px;
+}

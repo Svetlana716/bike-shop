@@ -1,0 +1,7 @@
+.slider__btn_type_next {
+  background-image: url("../../../../images/slider-next-btn.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 7px 16px;
+}
+

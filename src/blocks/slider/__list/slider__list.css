@@ -1,0 +1,7 @@
+.slider__list {
+display: flex;
+gap: 40px;
+position: relative;
+left: 0;
+transition: all ease 1s;
+}
