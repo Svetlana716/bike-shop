@@ -1,0 +1,15 @@
+@use "../../../scss/variables" as *;
+
+.subtitle_type_button {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  color: $total-white;
+}
+
+@media (max-width: 320px) {
+  .subtitle_type_button {
+    font-size: 13px;
+    line-height: 19px;
+  }
+}

@@ -1,8 +1,10 @@
+@use "../../../scss/variables" as *;
+
 .intro__button {
   margin-bottom: 167px;
   width: 180px;
   height: 50px;
-  background-color: #24B47E;
+  background-color: $green;
   border: none;
   padding: 0;
   border-radius: 4px;
@@ -11,17 +13,17 @@
 }
 
 .intro__button::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #319E75;
+  background-color: $green;
   z-index: -1;
   transform: scaleX(0);
   transform-origin: left;
-  transition: transform .5s linear;
+  transition: transform 0.5s linear;
 }
 
 .intro__button:hover::before {
@@ -33,5 +35,5 @@
     margin-bottom: 0px;
     margin-top: 60px;
     width: 100%;
-}
+  }
 }

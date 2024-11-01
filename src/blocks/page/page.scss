@@ -1,0 +1,14 @@
+@use "../../scss/variables" as *;
+
+.page {
+  font-family: $font-stack;
+  font-style: normal;
+  background-color: $light-grey;
+  color: $black;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}

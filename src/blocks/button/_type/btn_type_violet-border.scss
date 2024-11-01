@@ -1,0 +1,23 @@
+@use "../../../scss//variables" as *;
+
+.btn_type_violet-border {
+  color: $indigo;
+  border: 1px solid $indigo;
+  background-color: transparent;
+}
+
+.btn_type_violet-border:hover {
+  color: $total-white;
+  background-color: $indigo;
+}
+
+.btn_type_violet-border:active {
+  color: $indigo;
+  border-color: $indigo;
+}
+
+@media (max-width: 768px) {
+  .btn_type_violet-border {
+    padding: 10px 18px;
+  }
+}

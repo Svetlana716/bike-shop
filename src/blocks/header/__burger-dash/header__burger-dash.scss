@@ -1,10 +1,12 @@
+@use "../../../scss/variables" as *;
+
 .header__burger-dash {
   position: absolute;
   left: 0;
   height: 3px;
   width: 22px;
-  background-color: #151515;
-  transition: transform .5s ease;
+  background-color: $black;
+  transition: transform 0.5s ease;
 }
 
 .header__burger-dash:nth-child(1) {

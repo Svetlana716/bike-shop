@@ -1,0 +1,16 @@
+@use "../../../scss//variables" as *;
+
+.btn_type_violet {
+  color: $milky;
+  background-color: $violet;
+}
+
+.btn_type_violet:hover {
+  color: $total-white;
+  background-color: $indigo;
+}
+
+.btn_type_violet:active {
+  color: $milky;
+  background-color: $violet;
+}

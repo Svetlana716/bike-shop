@@ -1,9 +1,11 @@
+@use "../../../scss/variables" as *;
+
 .slider__hidden {
   position: absolute;
   top: 0;
   right: 0;
   width: calc(100% - 650px);
   height: calc(100% - 565px);
-  background-color: #F4F4F4;
+  background-color: $light-grey;
   z-index: 2;
 }

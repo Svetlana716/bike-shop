@@ -1,8 +1,10 @@
+@use "../../scss/variables" as *;
+
 .header {
   position: sticky;
   top: 0;
   box-sizing: border-box;
-  background-color: #f4f4f4;
+  background-color: $light-grey;
   width: 100%;
   min-height: 74px;
   display: flex;
@@ -15,12 +17,11 @@
 @media (max-width: 1024px) {
   .header {
     padding: 28px 60px;
-}
+  }
 }
 
 @media (max-width: 768px) {
   .header {
-   position: relative;
+    position: relative;
+  }
 }
-}
-

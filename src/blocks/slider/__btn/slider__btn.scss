@@ -1,7 +1,9 @@
+@use "../../../scss/variables" as *;
+
 .slider__btn {
   min-width: 50px;
   min-height: 50px;
-  background-color: #EBEBEB;
+  background-color: $light-grey;
   border: none;
   padding: 0;
   border-radius: 50%;

@@ -1,4 +1,13 @@
-$actionFontSize: 2rem;
-$actionFontColor: #fafafa;
-$actionColor: #1b5e20;
-$activeActionColor: lighten($actionColor, 5%);
+$font-stack: "Inter", Arial, sans-serif;
+
+//colors
+$total-black: #000;
+$total-white: #fff;
+$milky: #fcfaf7;
+$black: #222;
+$light-grey: #f4f4f4;
+$grey: #cfcfcf;
+$dark-grey: #3b3748;
+$green: #24b47e;
+$indigo: #5100b8;
+$violet: #7100ff;

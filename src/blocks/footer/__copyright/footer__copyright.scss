@@ -1,5 +1,7 @@
+@use "../../../scss/variables" as *;
+
 .footer__copyright {
-  color: #CFCFCF;
+  color: $grey;
   font-size: 14px;
   font-weight: 600;
   line-height: 19.587px;
