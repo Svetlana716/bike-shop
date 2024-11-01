@@ -1,0 +1,114 @@
+@use "../vendor/normalize.css";
+
+@use "../fonts/fonts.css";
+@use "../blocks/page/page.css";
+@use "../blocks/container/container.css";
+
+/*fonts*/
+@use "../blocks/title/title.css";
+@use "../blocks/subtitle/subtitle.css";
+@use "../blocks/subtitle/_type/subtitle_type_active.css";
+@use "../blocks/subtitle/_type/subtitle_type_button.css";
+@use "../blocks/subtitle/_type/subtitle_type_distribution.css";
+@use "../blocks/subtitle/_type/subtitle_type_main.css";
+@use "../blocks/subtitle/_type/subtitle_type_name.css";
+@use "../blocks/text/text.css";
+@use "../blocks/text/__medium/text__medium.css";
+@use "../blocks/text/__medium/_type/text__medium_type_form.css";
+@use "../blocks/text/__medium/_type/text__medium_type_name.css";
+@use "../blocks/text/__regular/text__regular.css";
+@use "../blocks/text/__regular/_type/text__regular_type_caption.css";
+@use "../blocks/text/__regular/_type/text__regular_type_name.css";
+@use "../blocks/text/__regular/_type/text__regular_type_paragraph.css";
+
+/*header*/
+@use "../blocks/header/header.css";
+@use "../blocks/header/__burger-btn/header__burger-btn.css";
+@use "../blocks/header/__burger-dash/header__burger-dash.css";
+@use "../blocks/header/__burger-dash-crossed/header__burger-dash-crossed.css";
+
+/*menu*/
+@use "../blocks/menu/menu.css";
+@use "../blocks/menu/__list/menu__list.css";
+@use "../blocks/menu/__item/menu__item.css";
+@use "../blocks/menu/__link/menu__link.css";
+@use "../blocks/menu/__theme-switcher/menu__theme-switcher.css";
+@use "../blocks/menu/_open/menu_open.css";
+
+/*theme-switcher*/
+@use "../blocks/theme-switcher/theme-switcher.css";
+@use "../blocks/theme-switcher/_hidden/theme-switcher_hidden.css";
+@use "../blocks/theme-switcher/__light-theme-icon/theme-switcher__light-theme-icon.css";
+@use "../blocks/theme-switcher/__dark-theme-icon/theme-switcher__dark-theme-icon.css";
+@use "../blocks/theme-switcher/__checkbox-input/theme-switcher__checkbox-input.css";
+@use "../blocks/theme-switcher/__checkbox-slider/theme-switcher__checkbox-slider.css";
+@use "../blocks/theme-switcher/__checkbox/theme-switcher__checkbox.css";
+
+/*content*/
+@use "../blocks/content/content.css";
+@use "../blocks/line/line.css";
+
+/*intro*/
+@use "../blocks/intro/intro.css";
+@use "../blocks/intro/__title/intro__title.css";
+@use "../blocks/intro/__image/intro__image.css";
+@use "../blocks/intro/__text/intro__text.css";
+@use "../blocks/intro/__button/intro__button.css";
+@use "../blocks/intro/__bike-name-container/intro__bike-name-container.css";
+@use "../blocks/intro/__bike-name/intro__bike-name.css";
+@use "../blocks/intro/__line/intro__line.css";
+@use "../blocks/intro/__bike-image-container/intro__bike-image-container.css";
+@use "../blocks/intro/__bike-image/intro__bike-image.css";
+
+/*quote*/
+@use "../blocks/quote/quote.css";
+@use "../blocks/quote/__line/quote__line.css";
+@use "../blocks/quote/__author/quote__author.css";
+@use "../blocks/quote/__image/quote__image.css";
+@use "../blocks/quote/__profession/quote__profession.css";
+@use "../blocks/quote/__title/quote__title.css";
+
+/*slider*/
+@use "../blocks/slider/slider.css";
+@use "../blocks/slider/__hidden/slider__hidden.css";
+@use "../blocks/slider/__image-label/slider__image-label.css";
+@use "../blocks/slider/__label-image/slider__label-image.css";
+@use "../blocks/slider/__item/slider__item.css";
+@use "../blocks/slider/__list/slider__list.css";
+@use "../blocks/slider/__btn/slider__btn.css";
+@use "../blocks/slider/__btn/_type/slider__btn_type_next.css";
+@use "../blocks/slider/__btn/_type/slider__btn_type_prev.css";
+
+/*item*/
+@use "../blocks/item/item.css";
+@use "../blocks/item/__image/item__image.css";
+@use "../blocks/item/__text/item__text.css";
+@use "../blocks/item/__title/item__title.css";
+
+/*apps*/
+@use "../blocks/apps/apps.css";
+@use "../blocks/apps/__image/apps__image.css";
+@use "../blocks/apps/__link/apps__link.css";
+@use "../blocks/apps/__links-container/apps__links-container.css";
+@use "../blocks/apps/__text/apps__text.css";
+@use "../blocks/apps/__title/apps__title.css";
+
+/*footer*/
+@use "../blocks/footer/footer.css";
+@use "../blocks/footer/__column/footer__column.css";
+@use "../blocks/footer/__form/footer__form.css";
+@use "../blocks/footer/__copyright/footer__copyright.css";
+@use "../blocks/footer/__theme-switcher/footer__theme-switcher.css";
+@use "../blocks/footer/__logo/footer__logo.css";
+
+/*form*/
+@use "../blocks/form/form.css";
+@use "../blocks/form/__heading/form__heading.css";
+@use "../blocks/form/__fieldset/form__fieldset.css";
+@use "../blocks/form/__input/form__input.css";
+
+* {
+  outline: 1px solid yellow;
+}
+
+/*320-> 768px —> 1024px —>1280px ->1440px*/

@@ -6,6 +6,12 @@
   margin: 0;
 }
 
+@media (max-width: 1280px) {
+  .title {
+    font-size: calc(32px + (55 - 32) * ((100vw - 320px) / (1440 - 320)));
+}
+}
+
 @media (max-width: 320px) {
   .title {
   font-size: 32px;

@@ -1,3 +1,9 @@
 .quote__title {
 margin-bottom: 262px;
 }
+
+@media (max-width: 768px) {
+  .quote__title {
+    margin-bottom: 40px;
+}
+}
